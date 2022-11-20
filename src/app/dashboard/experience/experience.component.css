@@ -1,0 +1,4 @@
+::ng-deep [aria-selected='false'] + .mat-vertical-content-container > .mat-vertical-stepper-content { display: block !important; }
+::ng-deep .mat-horizontal-stepper-header{
+    pointer-events: none !important;
+}

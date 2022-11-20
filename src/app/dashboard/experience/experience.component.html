@@ -1,0 +1,72 @@
+<mat-stepper orientation="vertical" steps="4,5,7">
+   
+    <mat-step [completed]="false" selected="false"  state="phone">
+      <ng-template matStepLabel>
+        <div>Team Lead at <span style="color:#3f51b5;">Groundspan Automation LLP</span></div>      
+      </ng-template>
+      <ng-template matStepContent>
+        <br/>
+        <p>
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title-group>
+                    <mat-card-title>June 2017 to Till Date</mat-card-title>
+                    <mat-card-subtitle>6+ years</mat-card-subtitle>
+                    <img src="https://groundspan.com/Corporate/Content/img/logo.png" >
+                  </mat-card-title-group>
+                </mat-card-header>
+                <mat-card-content>
+                    <h3>About Groundspan</h3>                    
+                    The GroundSpan platform was uniquely developed to accelerate the automation and management of ground transportation reservations from Travel Agencies, Corporate Booking Tools, Stand alone Websites and Mobile devices.
+                
+The GroundSpan platform will bring together agencies, corporate travelers and ground transportation companies into a marketplace that is accessible from anywhere and at any time.
+</mat-card-content>
+              </mat-card>
+        </p>
+        <button mat-button matStepperNext>Next</button>
+      </ng-template>
+    </mat-step>
+    <mat-step [completed]="false" selected="true">
+      <ng-template matStepLabel>Project Manager at <span style="color:#3f51b5;">Techsture Technologies</span></ng-template>
+      <ng-template matStepContent>
+        <br/>
+        <p>
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title-group>
+                    <mat-card-title>June 2006 to June 2017</mat-card-title>
+                    <mat-card-subtitle>10+ years</mat-card-subtitle>
+                    <img src="http://www.techsture.com/images/logo-light.png" >
+                  </mat-card-title-group>
+                </mat-card-header>
+                <mat-card-content>
+                    <h3>About Techsture Technologies</h3>                    
+                    Founded in the year 2007 with a firm belief that growth is driven by innovation, Techsture has established electronics R&D lab facility and integrated software development center.
+</mat-card-content>
+              </mat-card>
+        </p>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button matStepperNext>Next</button>
+      </ng-template>
+    </mat-step>
+    <mat-step [completed]="false"  selected="true">
+      <ng-template matStepLabel>Sr. Developer at <span style="color:#3f51b5;">Barodaweb: The E-Catalogue Designer</span></ng-template>
+      <br/>
+      <p>
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>June 2005 to June 2006</mat-card-title>
+                <mat-card-subtitle>1 year</mat-card-subtitle>
+                <img src="https://www.barodaweb.com/images/logoright.png" >
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <h3>About BarodaWeb</h3>                    
+                Barodaweb is a leading IT service provider located in Baroda, Gujarat. It is providing services such as Web Development, Mobile Application Development, IT Consultancy etc..
+</mat-card-content>
+          </mat-card>
+    </p>
+      <button mat-button matStepperPrevious>Back</button>
+    </mat-step>
+  </mat-stepper>

@@ -1,0 +1,30 @@
+mat-toolbar {
+    align-content: space-between;
+  }
+
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  .mat-mdc-icon-button.mat-mdc-button-base {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+  }
+  .mat-mdc-icon-button .mat-mdc-button-persistent-ripple {
+    border-radius: 50%;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  padding-right: 10px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+}
+.tail{
+  padding-top: 20px;
+}

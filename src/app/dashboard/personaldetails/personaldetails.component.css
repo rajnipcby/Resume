@@ -1,0 +1,22 @@
+.personal-card{
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-image: url(../../../assets/images/rajni-background4.png);
+    background-position-y: 8px;
+    
+}
+h3{
+    color: #000000;
+    margin-bottom: 0px;
+}
+.firstmatcard{
+    margin-top: -20px;
+    margin-left: -15px;
+}
+.rajni-background{
+    margin-left: 50px;
+    opacity: 0.5;
+}
+mat-list{
+    padding-left: 460px;
+}
